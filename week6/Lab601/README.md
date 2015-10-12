@@ -18,7 +18,8 @@ from the provided C# source code.
 ![570610590](http://www.uppic.com/uploads/14446530752.jpg)
   - Show the main function and snippet of C# code that is related to the process.
 
-class MainApp
+
+    class MainApp
     {
         public static void Main()
         {
@@ -38,7 +39,7 @@ class MainApp
             Console.ReadKey();
         }
     }
-    
+
     class AsiaFactory : ContinentFactory
     {
         public override Herbivore CreateHerbivore()
