@@ -10,7 +10,7 @@ from the provided C# source code.
 ![570610590](http://www.uppic.com/uploads/14446496371.png)
 
 2. Detail explaination about the identified pattern and all the parcipants
-  - 
+  - We include new classes as an asian herbivore and an asian carnivore that relate with herbivore and carnivore classes like     AmericanFactory and AfricaFactory classes.
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
 ![570610590](http://www.uppic.com/uploads/14446530751.png)
