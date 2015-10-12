@@ -17,6 +17,10 @@ from the provided C# source code.
   - Test the new requirment by modifying the main function and show the result.
 ![570610590](http://www.uppic.com/uploads/14446530752.jpg)
   - Show the main function and snippet of C# code that is related to the process.
+![570610590](http://www.uppic.com/uploads/14446540561.jpg)
+![570610590](http://www.uppic.com/uploads/14446540562.jpg)
+  
+
     class MainApp
     {
         public static void Main()
