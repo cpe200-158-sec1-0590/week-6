@@ -6,4 +6,5 @@ from the provided C# program.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
+![570610590](http://www.uppic.com/uploads/14446602411.jpg)
 2. Detail explaination about the identified pattern and all the parcipants
