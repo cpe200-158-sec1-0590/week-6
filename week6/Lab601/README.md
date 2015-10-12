@@ -38,6 +38,7 @@ class MainApp
         Console.ReadKey();
     }
   }
+  
   class AsiaFactory : ContinentFactory
     {
         public override Herbivore CreateHerbivore()
@@ -60,5 +61,5 @@ class MainApp
             Console.WriteLine(this.GetType().Name +
               " eats " + h.GetType().Name);
         }
-    } 
-
+    }
+  
