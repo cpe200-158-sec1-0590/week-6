@@ -18,3 +18,47 @@ from the provided C# source code.
 ![570610590](http://www.uppic.com/uploads/14446530752.jpg)
   - Show the main function and snippet of C# code that is related to the process.
 
+class MainApp
+  {
+    public static void Main()
+    {
+      ContinentFactory africa = new AfricaFactory();
+      AnimalWorld world = new AnimalWorld(africa);
+      world.RunFoodChain();
+ 
+      ContinentFactory america = new AmericaFactory();
+      world = new AnimalWorld(america);
+      world.RunFoodChain();
+
+      ContinentFactory asia = new AsiaFactory();
+      world = new AnimalWorld(asia);
+      world.RunFoodChain();
+
+        // Wait for user input
+        Console.ReadKey();
+    }
+  }
+  class AsiaFactory : ContinentFactory
+    {
+        public override Herbivore CreateHerbivore()
+        {
+            return new rhino();
+        }
+        public override Carnivore CreateCarnivore()
+        {
+            return new Tiger();
+        }
+    }
+    class rhino : Herbivore
+    {
+    }
+    class Tiger : Carnivore
+    {
+        public override void Eat(Herbivore h)
+        {
+            // Eat rhino
+            Console.WriteLine(this.GetType().Name +
+              " eats " + h.GetType().Name);
+        }
+    }
+
