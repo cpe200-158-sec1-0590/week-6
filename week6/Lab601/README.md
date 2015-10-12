@@ -60,5 +60,5 @@ class MainApp
             Console.WriteLine(this.GetType().Name +
               " eats " + h.GetType().Name);
         }
-    }
+    } 
 
