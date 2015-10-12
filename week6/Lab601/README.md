@@ -19,27 +19,27 @@ from the provided C# source code.
   - Show the main function and snippet of C# code that is related to the process.
 
 class MainApp
-  {
-    public static void Main()
     {
-      ContinentFactory africa = new AfricaFactory();
-      AnimalWorld world = new AnimalWorld(africa);
-      world.RunFoodChain();
- 
-      ContinentFactory america = new AmericaFactory();
-      world = new AnimalWorld(america);
-      world.RunFoodChain();
+        public static void Main()
+        {
+            ContinentFactory africa = new AfricaFactory();
+            AnimalWorld world = new AnimalWorld(africa);
+            world.RunFoodChain();
 
-      ContinentFactory asia = new AsiaFactory();
-      world = new AnimalWorld(asia);
-      world.RunFoodChain();
+            ContinentFactory america = new AmericaFactory();
+            world = new AnimalWorld(america);
+            world.RunFoodChain();
 
-        // Wait for user input
-        Console.ReadKey();
+            ContinentFactory asia = new AsiaFactory();
+            world = new AnimalWorld(asia);
+            world.RunFoodChain();
+
+            // Wait for user input
+            Console.ReadKey();
+        }
     }
-  }
-  
-  class AsiaFactory : ContinentFactory
+    
+    class AsiaFactory : ContinentFactory
     {
         public override Herbivore CreateHerbivore()
         {
@@ -62,4 +62,3 @@ class MainApp
               " eats " + h.GetType().Name);
         }
     }
-  
